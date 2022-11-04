@@ -1,4 +1,4 @@
-package com.example.tryonapp;
+package com.example.tryonapp.ar_glass;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.tryonapp.R;
 import com.google.ar.core.ArCoreApk;
 import com.google.ar.core.AugmentedFace;
 import com.google.ar.core.TrackingState;

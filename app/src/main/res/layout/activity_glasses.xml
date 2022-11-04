@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GlassesActivity">
+    tools:context=".ar_glass.GlassesActivity">
 
     <fragment
         android:id="@+id/ar_fragment"
-        android:name="com.example.tryonapp.CustomArFragment"
+        android:name="com.example.tryonapp.ar_glass.CustomArFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/activity_glasses"/>
