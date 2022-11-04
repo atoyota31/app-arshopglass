@@ -18,7 +18,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ar_glass.GlassesActivity">
+        <activity
+            android:name=".contact_us.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".about_us.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".product_details.ProductDetails"
+            android:exported="false" />
+        <activity
+            android:name=".product_view.ProductView"
+            android:exported="false" />
+        <activity
+            android:name=".cart.CartItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cart.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".form.FormOrder"
+            android:exported="false" />
+        <activity
+            android:name=".ar_glass.GlassesActivity"
+            android:exported="false" />
+        <activity android:name=".products.ProductCatalog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
